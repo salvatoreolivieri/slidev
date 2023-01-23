@@ -31,7 +31,7 @@ title: Al Tools for Developer
 #### What we are going to see
 
 - ⏳ **Copilot** - Have a personal assistant while you write code
-- 👨🏻‍🎨 **...** - Convert Figma designs to high quality code
+- 👨🏻‍🎨 **Locofy** - Improve development workflow converting Figma designs to code
 - 👾 **ChatGpt** - Debug like a pro
 - 👨🏻‍🔬 **Airtest** - Write effortless Unit Testing for your code base
 - 🔍 **Perplexity** - Stay up to date with web development trends saving a tons of time
@@ -129,39 +129,47 @@ GitHub Copilot uses the OpenAI Codex to suggest code <br> and entire functions i
 
 # Most usefull internal use for our team
 
-
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
-```html
-<!--  write something -->
-```
 ```html
 <!--  write something -->
 ```
 
-<!-- 
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+```html
+<!--  write something -->
+```
+
+<!--
 ```ts {all|2|1-6|9|all}
 interface User {
   id: number;
@@ -192,6 +200,18 @@ function updateUser(id: number, update: User) {
   display: none;
 }
 </style> -->
+
+---
+
+# Pro and Cons
+
+---
+
+# Locofy
+
+Turn your designs into production-ready frontend code for mobile apps and web.
+
+<img  src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
 
 ---
 
