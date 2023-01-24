@@ -263,7 +263,6 @@ Stay up to date with web development trends saving a tons of time
   gap: 14px 
 }
 
-
 </style>
 
 ---
@@ -276,6 +275,43 @@ Stay up to date with web development trends saving a tons of time
 
 ---
 
-# Conclusion and final setup
+# BONUS: Ai image tools
+
+<div class="column-wrapper">
+
+<div class="column">
+
+[DALL·E 2](https://labs.openai.com/)
+
+<img src="/dall-e.png"  class=" w-[500px]" />
+
+</div>
+
+<div class="column">
+
+[Lorem Faces](https://loremfaces.com/) and [thispersondoesnotexist](https://thispersondoesnotexist.com/)
+
+<img src="/loremface.png"  class=" w-[500px]" />
+
+</div>
+</div>
+
+<style>
+.column-wrapper{
+  display: flex;
+  gap: 14px 
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 14px 
+}
+
+</style>
+
+---
+
+# Conclusion and Final Setup
 
 ---
