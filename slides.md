@@ -187,7 +187,7 @@ Here **some benefit** that you will have:
 | ------------------- | -------------------------------------- |
 | Smart and Intuitive | Paid version only (19$/month per user) |
 | Easy to learn       | Sometimes a lot invasive               |
-| Easy to integrate   |                                        |
+| Easy to integrate   | Make the IDE slow                      |
 
 ---
 
