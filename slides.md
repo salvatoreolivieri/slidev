@@ -33,7 +33,7 @@ title: Al Tools for Developer
 - ⏳ **Copilot** - Have a personal assistant while you write code
 - 👨🏻‍🎨 **Locofy** - Improve development workflow converting Figma designs to code
 - 👾 **ChatGpt** - Debug like a pro
-- 👨🏻‍🔬 **Airtest** - Write effortless Unit Testing for your code base
+- 👨🏻‍🔬 **Refraction** - Write effortless Unit Testing for your code base
 - 🔍 **Perplexity** - Stay up to date with web development trends saving a tons of time
 
 <!--
@@ -67,17 +67,23 @@ Here is another comment.
 
 ---
 
-# Copilot
+<img src="/Ai-replace-you.png" class="w-300px" style="margin-left:280px; margin-top:10px" />
 
-GitHub Copilot uses the OpenAI Codex to suggest code <br> and entire functions in real-time, right from your editor.
+---
 
 <br>
 
-| **Before**                                     | **After**                                                           |
-| ---------------------------------------------- | ------------------------------------------------------------------- |
-| Write everything manually losing a lot of time | You Have a personal assistant that give you AI-based suggestions    |
-| Waste time with repetitive code patterns       | Spend more time time on what matters                                |
-| Lose hours facing unfamiliar problems          | Learn faster and Code confidently also with never used technologies |
+# Copilot
+
+A simple VsCode extension to help you write daily code
+
+<br>
+
+Here **some benefit** that you will have:
+
+- You Have a personal assistant that give you **AI-based suggestions**
+- Spend more time time on **what matters**
+- **Learn faster** and Code confidently also **with never used technologies**
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 
@@ -169,297 +175,107 @@ GitHub Copilot uses the OpenAI Codex to suggest code <br> and entire functions i
 <!--  write something -->
 ```
 
-<!--
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  role: string;
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id);
-  const newUser = { ...user, ...update };
-  saveUser(id, newUser);
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style> -->
-
 ---
 
-# Pro and Cons
+<br>
+<br>
+<br>
+<br>
+<br>
+
+| **Pro**             | **Cons**                               |
+| ------------------- | -------------------------------------- |
+| Smart and Intuitive | Paid version only (19$/month per user) |
+| Easy to learn       | Sometimes a lot invasive               |
+| Easy to integrate   |                                        |
 
 ---
 
 # Locofy
 
-Turn your designs into production-ready frontend code for mobile apps and web.
+Turn your designs into production-ready frontend code for mobile apps and web
 
-<img  src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
+<img src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
 
 ---
 
-## class: px-20
+# ChatGPT
 
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-
-## preload: false
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div v-motion :initial="{ x: -80 }" :enter="{ x: 0 }">Slidev</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
+Your next level debugging process
 
 <br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
 <br>
 
-[Learn more](https://sli.dev/guide/syntax#latex)
+<img src="/life-calendar.png" style="margin-left: 80px;" class="w-[700px]" />
 
 ---
 
-# Diagrams
+<img src="/chatgpt-1.png" style="margin-top: 65px; margin-left:140px" class=" w-[600px]" />
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+---
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
+<img src="/chatgpt-2.png" style="margin-top: 65px; margin-left:140px" class=" w-[600px]" />
 
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+---
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+<img src="/chatgpt-3.png" style=" margin-left:180px" class=" w-[500px]" />
 
-```plantuml {scale: 0.7}
-@startuml
+---
 
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
+<img src="/chatgpt-4.png" style="margin-top: 25px; margin-left:180px" class=" w-[500px]" />
 
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
+---
 
-cloud {
-  [Example 1]
-}
+# Refraction
 
+Generate unit tests, refactor code and create documentation
 
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
+---
 
+# Perplexity and Phind
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+Stay up to date with web development trends saving a tons of time
 
-@enduml
-```
+<div class="column-wrapper">
+
+<div class="column">
+
+<img src="/perplexity.png"  class=" w-[500px]" />
 
 </div>
 
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+<div class="column">
+
+<img src="/phind.png"  class=" w-[500px]" />
+
+</div>
+</div>
+
+<style>
+.column-wrapper{
+  display: flex;
+  gap: 14px 
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 14px 
+}
+
+
+</style>
 
 ---
 
-src: ./pages/multiple-entries.md
-hide: false
+<img src="/perplexity-example.png" style="margin-top: 15px; margin-left:180px" class="w-500px"   />
 
 ---
 
----
-
-layout: center
-class: text-center
+<img src="/phind-case-study-png.png"   />
 
 ---
 
-# Learn More
+# Conclusion and final setup
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+---
