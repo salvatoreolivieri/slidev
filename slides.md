@@ -206,10 +206,21 @@ Generate unit tests, refactor code and create documentation
 
 ---
 
+<br>
+
 # Case Study
 
+We read the reviews and ipotize that Refraction use ChatGpt Implementation. <br> So we try a unit test generation created by Refraction VS ChatGPT
 
+<img src="/refraction-feedback.png" class=" w-[300px]" />
 
+---
+
+# Prompt Ready to use
+
+```html
+<!--  write something -->
+```
 
 ---
 
@@ -294,5 +305,3 @@ Stay up to date with web development trends saving a tons of time
 ---
 
 # Conclusion and Final Setup
-
----
