@@ -82,7 +82,7 @@ A simple VsCode extension to help you write daily code
 Here **some benefit** that you will have:
 
 - You Have a personal assistant that give you **AI-based suggestions**
-- Spend more time time on **what matters**
+- Spend more time on **what matters**
 - **Learn faster** and Code confidently also **with never used technologies**
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
@@ -133,50 +133,6 @@ Here **some benefit** that you will have:
 
 ---
 
-# Most usefull internal use for our team
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
-```html
-<!--  write something -->
-```
-
----
-
 <br>
 <br>
 <br>
@@ -196,6 +152,8 @@ Here **some benefit** that you will have:
 Turn your designs into production-ready frontend code for mobile apps and web
 
 <img src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
+
+---
 
 ---
 
@@ -226,9 +184,32 @@ Your next level debugging process
 
 ---
 
+<br>
+
+# Outcome and Key Point
+
+<br>
+
+### Remember that the entire focus of the presentation is to <br> Explore how AI assisted development can **innovate workflow**, <br> improve **work quality**, **reduce cost** and bring **more value to the market**.
+
+<br>
+
+### These technologies **can't replace a developer** and are <br> very usefull to **help our senior developer save time**.
+
+---
+
 # Refraction
 
 Generate unit tests, refactor code and create documentation
+
+<img src="/refraction.png" class=" w-[700px]" />
+
+---
+
+# Case Study
+
+
+
 
 ---
 
