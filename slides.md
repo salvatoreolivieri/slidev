@@ -185,6 +185,42 @@ Your next level debugging process
 ---
 
 <br>
+<br>
+
+<div class=" w-[520px]">
+
+# Prompt and Use Case Template
+
+<br>
+
+```html
+Explain the following code: [...]
+```
+
+<br>
+
+```html
+What could be the cause of this error in VSCode: [...]
+```
+
+<br>
+
+```html
+Help me find mistakes in the following code: [...]
+```
+
+<br>
+
+```html
+Convert this code from Python to Javascript: [...]
+```
+
+</div>
+
+---
+
+<br>
+<br>
 
 # Outcome and Key Point
 
@@ -210,17 +246,25 @@ Generate unit tests, refactor code and create documentation
 
 # Case Study
 
-We read the reviews and ipotize that Refraction use ChatGpt Implementation. <br> So we try a unit test generation created by Refraction VS ChatGPT
+We read the reviews and ipotize that Refraction use ChatGpt Implementation. <br> So we make a unit test comparision from Refraction and ChatGPT.<br><br>
+Refraction is more faster and powerfull, but we think we can avoid paid it <br> just **improving the input prompt used to feed ChatGpt**.
 
 <img src="/refraction-feedback.png" class=" w-[300px]" />
 
 ---
 
+<br><br><br><br>
+
+<div class=" w-[600px]">
+
 # Prompt Ready to use
 
 ```html
-<!--  write something -->
+Write unit tests to test the following code using vitest, and be the most
+accurate and clean possible: [CODE]
 ```
+
+</div>
 
 ---
 
@@ -304,4 +348,16 @@ Stay up to date with web development trends saving a tons of time
 
 ---
 
+<br>
+<br>
+
 # Conclusion and Final Setup
+
+<br>
+
+### **How your daily work will looks like**
+
+Use **ChatGpt** for code improvement, problem solving and feature implementation plan. <br><br>
+Furthermore use **Perplexity** and **Phind** simultaneously with Google Search <br> to find out the best solution that fit your need, maybe you will discover that <br> most of the time one of these will help find information faster.<br><br>
+
+**Remember**: Ai integrate your **daily research** and **problem solving** pattern, <br> NOT replace your already in use toolbox.
