@@ -151,8 +151,6 @@ Here **some benefit** that you will have:
 
 Turn your designs into production-ready frontend code for mobile apps and web
 
-[altro](https://www.youtube.com/watch?v=zG3QrRcrNGI)
-
 <img src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
 
 ---
