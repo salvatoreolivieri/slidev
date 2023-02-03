@@ -147,13 +147,13 @@ Here **some benefit** that you will have:
 
 ---
 
-# Locofy
+# [Locofy](https://www.youtube.com/watch?v=whO74T3RZwU)
 
 Turn your designs into production-ready frontend code for mobile apps and web
 
-<img src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
+[altro](https://www.youtube.com/watch?v=zG3QrRcrNGI)
 
----
+<img src="https://www.locofy.ai/assets/images/pages/home/sections/our_integrations/integrations-desktop.png">
 
 ---
 
